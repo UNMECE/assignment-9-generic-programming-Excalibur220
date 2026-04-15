@@ -126,6 +126,16 @@ public:
 
         return slicedArray;
     }
+
+    void printArray() const
+    {
+        for (int i = 0; i < currentSize; i++)
+        {
+            std::cout << data[i] << " ";
+        }
+
+        std::cout << std::endl;
+    }
 };
 
 #endif

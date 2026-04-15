@@ -17,6 +17,9 @@ int main()
     int_array.addElement(18);
     int_array.addElement(20);
 
+    std::cout << "Array contents: ";
+    int_array.printArray();
+
     std::cout << "Element at index 3 is " << int_array.at(3) << std::endl;
     std::cout << "Size of array is " << int_array.size() << std::endl;
     std::cout << "Sum of the array is " << int_array.sum() << std::endl;
